@@ -3,7 +3,7 @@ let UserSchema = new mongoose.Schema({
     name: String,
     email: String,
     destination: String,
-    travelers: String,
+    travelers: Number,
     budget:Number
 })
 
